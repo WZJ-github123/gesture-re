@@ -10,68 +10,68 @@ data_y = []
 import os
 from PIL import Image
 
-for filename in os.listdir("/home/wzj/PycharmProjects/gesture1/train_gesture_data/0"):
-    im = Image.open('/home/wzj/PycharmProjects/gesture1/train_gesture_data/0/' + filename)
+for filename in os.listdir("/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/0"):
+    im = Image.open('/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/0/' + filename)
     im2 = np.array(im)
 
     data_x.append(im2)
     data_y.append(0)
 
-for filename in os.listdir("/home/wzj/PycharmProjects/gesture1/train_gesture_data/1"):
-    im = Image.open('/home/wzj/PycharmProjects/gesture1/train_gesture_data/1/' + filename)
+for filename in os.listdir("/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/1"):
+    im = Image.open('/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/1/' + filename)
     im2 = np.array(im)
 
     data_x.append(im2)
     data_y.append(1)
 
-for filename in os.listdir("/home/wzj/PycharmProjects/gesture1/train_gesture_data/2"):
-    im = Image.open('/home/wzj/PycharmProjects/gesture1/train_gesture_data/2/' + filename)
+for filename in os.listdir("/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/2"):
+    im = Image.open('/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/2/' + filename)
     im2 = np.array(im)
 
     data_x.append(im2)
     data_y.append(2)
 
-for filename in os.listdir("/home/wzj/PycharmProjects/gesture1/train_gesture_data/3"):
-    im = Image.open('/home/wzj/PycharmProjects/gesture1/train_gesture_data/3/' + filename)
+for filename in os.listdir("/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/3"):
+    im = Image.open('/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/3/' + filename)
     im2 = np.array(im)
 
     data_x.append(im2)
     data_y.append(3)
-for filename in os.listdir("/home/wzj/PycharmProjects/gesture1/train_gesture_data/4"):
-    im = Image.open('/home/wzj/PycharmProjects/gesture1/train_gesture_data/4/' + filename)
+for filename in os.listdir("/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/4"):
+    im = Image.open('/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/4/' + filename)
     im2 = np.array(im)
 
     data_x.append(im2)
     data_y.append(4)
-for filename in os.listdir("/home/wzj/PycharmProjects/gesture1/train_gesture_data/5"):
-    im = Image.open('/home/wzj/PycharmProjects/gesture1/train_gesture_data/5/' + filename)
+for filename in os.listdir("/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/5"):
+    im = Image.open('/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/5/' + filename)
     im2 = np.array(im)
 
     data_x.append(im2)
     data_y.append(5)
-for filename in os.listdir("/home/wzj/PycharmProjects/gesture1/train_gesture_data/6"):
-    im = Image.open('/home/wzj/PycharmProjects/gesture1/train_gesture_data/6/' + filename)
+for filename in os.listdir("/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/6"):
+    im = Image.open('/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/6/' + filename)
     im2 = np.array(im)
 
     data_x.append(im2)
     data_y.append(6)
-for filename in os.listdir("/home/wzj/PycharmProjects/gesture1/train_gesture_data/7"):
+for filename in os.listdir("/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/7"):
 
-    im = Image.open('/home/wzj/PycharmProjects/gesture1/train_gesture_data/7/'+filename)
+    im = Image.open('/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/7/'+filename)
     im2 = np.array(im)
 
     data_x.append(im2)
     data_y.append(7)
 
-for filename in os.listdir("/home/wzj/PycharmProjects/gesture1/train_gesture_data/8"):
+for filename in os.listdir("/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/8"):
 
-    im = Image.open('/home/wzj/PycharmProjects/gesture1/train_gesture_data/8/'+filename)
+    im = Image.open('/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/8/'+filename)
     im2 = np.array(im)
     data_x.append(im2)
     data_y.append(8)
 
-for filename in os.listdir("/home/wzj/PycharmProjects/gesture1/train_gesture_data/9"):
-    im = Image.open('/home/wzj/PycharmProjects/gesture1/train_gesture_data/9/'+filename)
+for filename in os.listdir("/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/9"):
+    im = Image.open('/home/dl4/wzj/gesture-re/gesture-re/train_gesture_data/9/'+filename)
     im2 = np.array(im)
     data_x.append(im2)
     data_y.append(9)
