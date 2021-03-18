@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 from skimage import io
-import tensorflow as tf
-
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 batch_size = 64
 
 data_x = []
