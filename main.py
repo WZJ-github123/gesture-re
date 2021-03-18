@@ -197,7 +197,7 @@ with tf.Session() as sess:
     # 使用start_queue_runners 启动队列填充
     threads = tf.train.start_queue_runners(sess, coord)
     # 训练500次
-    for i in range(10):
+    for i in range(100):
         sess.run(tf.local_variables_initializer())
         x_batch, y_batch = sess.run([x_batch_train, y_batch_train])
         sess.run(train_step, feed_dict={xs: x_batch, ys: y_batch, keep_prob: 0.9})
