@@ -180,7 +180,7 @@ print(ys.name)
 print(keep_prob.name)
 cross_entropy = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=prediction, labels=tf.argmax(ys, 1))
 # 0.01学习效率,minimize(loss)减小loss误差
-regularizer = tf.contrib.layers.l2_regularizer(0.4)
+regularizer = tf.truncated_normal_initializer(stddev=0.4)
 regularization = regularizer(W_fc1) + regularizer(W_fc2) + regularizer(W_fc3)
 final_loss = tf.reduce_mean(cross_entropy) + regularization
 train_step = tf.train.AdamOptimizer(0.001).minimize(final_loss)
